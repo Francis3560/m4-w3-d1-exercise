@@ -33,4 +33,4 @@ it('performs snapshot testing', () => {
   const tree = renderer.create(<App />).toJSON();
   expect(tree).toMatchSnapshot();
 });
-});
+  });
